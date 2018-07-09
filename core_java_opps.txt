@@ -1,0 +1,38 @@
+default package of java is java.lang
+OOPS
+	Encapsulation
+		access specifier
+		-data hiding
+	polymorphism
+		- compile time
+			- method overloading
+			- constructor overloading
+		- run time
+			- method overriding
+	inheritance
+		-
+	abstraction
+		- abstract class
+		- interface
+				
+		
+private -- you can access only inside class
+public -- any where out side class even in diff package
+protected -- any child class can access even if it's in diff package
+default -- same as public but in same package	
+	
+constructor
+	- class name and constructor name should be same
+	- for initialize data member
+	- constroctor is called automatically when object is created
+		
+	
+package
+	-- it contains N number of classes
+
+-- class name should start with Capital and then Camel Case
+-- method name shuld be start with small letter and then Camel Case
+
+		
+
+	
