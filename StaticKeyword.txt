@@ -1,0 +1,65 @@
+
+	class	Student
+		id // instance variable
+		name //instance variable
+		static s=0;
+		Student(){
+			s++;
+		}
+
+		Student(1,2){
+			s++;
+		}
+	
+	Student s1=new Student()
+	Student s2=new Student(1,"keyur");
+	
+	what if we need class level variable
+	
+	static keyword
+		cnt = 0;		
+
+		s1.id = 10;
+	
+		s2.id
+
+	
+	
+	will be called by class name
+	static method className
+
+	Static Block
+	Student.cnt
+	Student.m()			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	

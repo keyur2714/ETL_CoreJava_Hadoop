@@ -1,0 +1,24 @@
+
+	Throwable
+		|
+	Error		Exception
+			    |		|
+		RunTimeException	 	IOException				ArithmeticException 
+		NullPointerException
+		NumberFormateException
+	
+	String no = "123ab";
+	
+	int n = Integer.parseInt(no);			
+	
+	--------------------
+	try{
+		//block that might be has some exception
+		String s=null;	
+		int len = s.length();	
+		System.out.ptintln(len);
+	}
+	ctach(NullPointerException n){
+		n.printStackTrace();
+	}
+	System.out.println("hi..");
