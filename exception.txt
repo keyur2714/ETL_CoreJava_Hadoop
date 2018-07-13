@@ -22,3 +22,8 @@
 		n.printStackTrace();
 	}
 	System.out.println("hi..");
+
+	//this block is executed always even if
+	exception is thrown or not
+	finally{ 
+	}

@@ -1,0 +1,28 @@
+inheritance
+	|
+	is a relationship
+	has a relationship
+	
+interface -- all methods are abstract
+	 
+abstract class -- it has a abstarct method
++ normal/concreate methods	
+	
+	
+		IPayment
+		void pay();		
+		void getOtp();
+		AbstractClass implements IPayment{
+				
+		}
+		
+		|
+|		|		|	 |
+PayTM		NetBanking	Cards	Cash
+void pay(){				pay(){
+					}
+}					void getOtp(){}
+	
+
+IPayment i;
+i.pay();	

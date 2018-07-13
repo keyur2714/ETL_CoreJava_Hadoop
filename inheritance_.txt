@@ -1,0 +1,40 @@
+
+	File Handaling -- read files 
+	 	write files
+	
+	- Collection Framework
+		List
+			ArrayList
+			LinkedList
+		Map
+		Set
+			 
+	--------------------Hadoop-----------------
+	-----------------------	
+	1. MapReduce --- 
+	2. 
+
+
+	calss Person{
+		id
+		name
+		Address address;	 	
+		Contact contact;
+		
+		public Address getAddress(){
+			return address;
+		}
+		public void setAddress(Address address){
+			this.address = address;
+		}
+	}
+	
+	Person p=new Person();
+	p.setId();
+	p.setName();
+	Address a=new Address();
+	a.setAddress1();
+	a.setAddress1();
+	p.setAddress(a);
+	p.getAddress().getAddress1();
+	p.getAddress().getAddress2();

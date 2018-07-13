@@ -1,4 +1,15 @@
-class ExceptionDemo{
+class MyException extends Exception{
+	private String errCode;
+	private String errMessage;
+	public MyException(){
+		this.errCode = "100";
+		this.errMessage = "String is Invalid";
+	}
+	public String toString(){	
+		return errCode+" "+errMessage;
+	}
+}
+public class ExceptionDemo{
 	public static void main(String str[]){
 		try{
 			String s = "keyur";
@@ -15,7 +26,19 @@ class ExceptionDemo{
 			System.out.println("Number is not Valid");	
 		}catch(Exception e){
 			e.printStackTrace();
+		}finally{
+			System.out.println("Always Executed");
 		}
 		System.out.println("Good Bye...!");
+		try{
+			String input = "vinit";
+			for(int i=0;i<input.length();i++){
+				if(input.charAt(i) == 'K'){
+				throw new MyException();
+				}	
+			}
+		}catch(MyException e){
+			System.out.println(e);
+		}
 	}
 }
